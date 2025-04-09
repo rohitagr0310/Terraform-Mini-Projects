@@ -1,3 +1,8 @@
+# Question: Create a Terraform configuration file that does the following:
+# 1. use required_providers block to specify the provider
+# 2. use provider block to specify the region
+# 3. use resource block to create an example t2.micro EC2 instance
+
 terraform {
   required_providers {
     aws = {
